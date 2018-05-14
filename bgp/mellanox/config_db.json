@@ -1,0 +1,156 @@
+{ 
+    "DEVICE_METADATA": {
+        "localhost": {
+            "hwsku": "ACS-MSN2100", 
+            "hostname": "sonic-mellanox", 
+            "platform": "x86_64-mlnx_msn2100-r0", 
+            "mac": "ec:0d:9a:8d:f1:c0",
+            "default_bgp_status": "up", 
+            "default_pfcwd_status": "disable", 
+            "bgp_asn": "65000", 
+            "deployment_id": null, 
+            "type": "LeafRouter"
+        }
+    },
+    "PORT": {
+        "Ethernet0": {
+            "alias": "Ethernet0", 
+            "lanes": "0,1,2,3"
+        }, 
+        "Ethernet4": {
+            "alias": "Ethernet4", 
+            "lanes": "4,5,6,7"
+        }, 
+        "Ethernet8": {
+            "alias": "Ethernet8", 
+            "lanes": "8,9,10,11"
+        }, 
+        "Ethernet12": {
+            "alias": "Ethernet12", 
+            "lanes": "12,13,14,15"
+        }, 
+        "Ethernet16": {
+            "alias": "Ethernet16", 
+            "lanes": "16,17,18,19"
+        }, 
+        "Ethernet20": {
+            "alias": "Ethernet20", 
+            "lanes": "20,21,22,23"
+        }, 
+        "Ethernet24": {
+            "alias": "Ethernet24", 
+            "lanes": "24,25,26,27"
+        }, 
+        "Ethernet28": {
+            "alias": "Ethernet28", 
+            "lanes": "28,29,30,31"
+        }, 
+        "Ethernet32": {
+            "alias": "Ethernet32", 
+            "lanes": "32,33,34,35"
+        }, 
+        "Ethernet36": {
+            "alias": "Ethernet36", 
+            "lanes": "36,37,38,39"
+        }, 
+        "Ethernet40": {
+            "alias": "Ethernet40", 
+            "lanes": "40,41,42,43"
+        }, 
+        "Ethernet44": {
+            "alias": "Ethernet44", 
+            "lanes": "44,45,46,47"
+        }, 
+        "Ethernet48": {
+            "alias": "Ethernet48", 
+            "lanes": "48,49,50,51"
+        }, 
+        "Ethernet52": {
+            "alias": "Ethernet52", 
+            "lanes": "52,53,54,55"
+        }, 
+        "Ethernet56": {
+            "alias": "Ethernet56", 
+            "lanes": "56,57,58,59"
+        }, 
+        "Ethernet60": {
+            "alias": "Ethernet60", 
+            "lanes": "60,61,62,63"
+        }, 
+        "eth0": {
+            "alias": "eth0"
+        }
+    },
+    "BGP_NEIGHBOR": {
+        "10.0.2.20": {
+            "name": "Arista",
+            "local_addr": "10.0.2.10",
+            "asn": "65100"
+        },
+        "10.0.3.20": {
+            "name": "Arista",
+            "local_addr": "10.0.3.10",
+            "asn": "65100"
+        }
+    },  
+    "INTERFACE": {
+        "Ethernet32|10.0.2.10/24": {}, 
+        "Ethernet36|10.0.3.10/24": {}, 
+        "Ethernet56|10.0.0.10/24": {}, 
+        "Ethernet60|10.0.1.10/24": {}, 
+        "eth0|192.168.250.3/24": {}
+    },
+    "LOOPBACK_INTERFACE": {
+        "Loopback0|10.1.0.10/32": {}
+    }, 
+    "NTP_SERVER": {
+        "0.debian.pool.ntp.org": {}, 
+        "1.debian.pool.ntp.org": {}, 
+        "2.debian.pool.ntp.org": {}, 
+        "3.debian.pool.ntp.org": {}
+    },  
+    "CRM": {
+        "Config": {
+            "acl_table_threshold_type": "percentage", 
+            "nexthop_group_threshold_type": "percentage", 
+            "fdb_entry_high_threshold": "85", 
+            "acl_entry_threshold_type": "percentage", 
+            "ipv6_neighbor_low_threshold": "70", 
+            "nexthop_group_member_low_threshold": "70", 
+            "acl_group_high_threshold": "85", 
+            "ipv4_route_high_threshold": "85", 
+            "acl_counter_high_threshold": "85", 
+            "ipv4_route_low_threshold": "70", 
+            "ipv4_route_threshold_type": "percentage", 
+            "ipv4_neighbor_low_threshold": "70", 
+            "acl_group_threshold_type": "percentage", 
+            "ipv4_nexthop_high_threshold": "85", 
+            "ipv6_route_threshold_type": "percentage", 
+            "nexthop_group_low_threshold": "70", 
+            "ipv4_neighbor_high_threshold": "85", 
+            "ipv6_route_high_threshold": "85", 
+            "ipv6_nexthop_threshold_type": "percentage", 
+            "polling_interval": "300", 
+            "ipv4_nexthop_threshold_type": "percentage", 
+            "acl_group_low_threshold": "70", 
+            "acl_entry_low_threshold": "70", 
+            "nexthop_group_member_threshold_type": "percentage", 
+            "ipv4_nexthop_low_threshold": "70", 
+            "acl_counter_threshold_type": "percentage", 
+            "ipv6_neighbor_high_threshold": "85", 
+            "nexthop_group_member_high_threshold": "85", 
+            "acl_table_low_threshold": "70", 
+            "fdb_entry_threshold_type": "percentage", 
+            "ipv6_neighbor_threshold_type": "percentage", 
+            "acl_table_high_threshold": "85", 
+            "ipv6_nexthop_low_threshold": "70", 
+            "acl_counter_low_threshold": "70", 
+            "ipv4_neighbor_threshold_type": "percentage", 
+            "nexthop_group_high_threshold": "85", 
+            "ipv6_route_low_threshold": "70", 
+            "acl_entry_high_threshold": "85", 
+            "fdb_entry_low_threshold": "70", 
+            "ipv6_nexthop_high_threshold": "85"
+        }
+    }
+}

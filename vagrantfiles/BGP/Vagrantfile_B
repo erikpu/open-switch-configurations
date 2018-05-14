@@ -1,0 +1,22 @@
+Vagrant.configure("2") do |config|
+
+  # Define VMB1
+  config.vm.define "vmB1" do |vmB1|
+    vmB1.vm.box = "generic/debian9"
+    vmB1.vm.hostname = "vmB1"
+
+    # Configure bridge and IP-address
+    vmB1.vm.network "public_network", bridge: "enp5s0d1", ip: "10.0.4.2/24"
+
+  end
+
+ # Define VMB2
+  config.vm.define "vmB2" do |vmB2|
+    vmB2.vm.box = "generic/debian9"
+    vmB2.vm.hostname = "vmB2"
+
+    # Configure bridge and IP-address
+    vmB2.vm.network "public_network", bridge: "enp5s0", ip: "10.0.5.2/24"
+
+  end
+end
