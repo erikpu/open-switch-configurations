@@ -92,7 +92,25 @@
             "local_addr": "10.0.3.10",
             "asn": "65100"
         }
-    },  
+    },
+    "DEVICE_NEIGHBOR": {
+        "ServerAs0d1": {
+            "local_port": "Ethernet56",
+            "port": "enp5s0d1"
+        },
+        "ServerAs0": {
+            "local_port": "Ethernet60",
+            "port": "enp5s0"
+        },
+        "Arista16": {
+            "local_port": "Ethernet32",
+            "port": "Ethernet16"
+        },
+        "Arista20": {
+            "local_port": "Ethernet36",
+            "port": "Ethernet20"
+        }
+    },
     "INTERFACE": {
         "Ethernet32|10.0.2.10/24": {}, 
         "Ethernet36|10.0.3.10/24": {}, 

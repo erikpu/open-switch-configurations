@@ -81,34 +81,34 @@
         }
     },
     "DEVICE_NEIGHBOR": {
-        "ServerA": {
-            "mgmt_addr": "10.20.0.163", 
-            "hwsku": "Arista", 
-            "lo_addr": null, 
-            "local_port": "Ethernet56", 
-            "type": "LeafRouter", 
+        "ServerAs0d1": {
+            "local_port": "Ethernet56",
             "port": "enp5s0d1"
-        }, 
-        "ServerA": {
-            "mgmt_addr": "10.20.0.162", 
-            "hwsku": "Arista", 
-            "lo_addr": null, 
-            "local_port": "Ethernet60", 
-            "type": "LeafRouter", 
+        },
+        "ServerAs0": {
+            "local_port": "Ethernet60",
             "port": "enp5s0"
-        } 
+        },
+        "Arista16": {
+            "local_port": "Ethernet32",
+            "port": "Ethernet16"
+        },
+        "Arista20": {
+            "local_port": "Ethernet36",
+            "port": "Ethernet20"
+        }
     },
     "PORTCHANNEL_INTERFACE": {
         "PortChannel1|172.16.0.10/24": {},
-	"PortChannel2|172.16.1.10/24": {}
+        "PortChannel2|172.16.1.10/24": {}
     },
     "PORTCHANNEL": {
-	"PortChannel1": {
-	    "members": [
-		"Ethernet56",
-		"Ethernet60"
-	    ]
-	},
+        "PortChannel1": {
+            "members": [
+                "Ethernet56",
+                "Ethernet60"
+            ]
+        },
         "PortChannel2": {
             "members": [
                 "Ethernet32",

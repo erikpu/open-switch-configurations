@@ -445,26 +445,26 @@
         }
     },
     "DEVICE_NEIGHBOR": {
-        "ServerB": {
-            "mgmt_addr": "10.20.0.163",
-            "hwsku": "Arista",
-            "lo_addr": null,
+        "ServerBs0d1": {
             "local_port": "Ethernet40",
-            "type": "LeafRouter",
             "port": "enp5s0d1"
         },
-        "ServerB": {
-            "mgmt_addr": "10.20.0.162",
-            "hwsku": "Arista",
-            "lo_addr": null,
+        "ServerBs0": {
             "local_port": "Ethernet44",
-            "type": "LeafRouter",
             "port": "enp5s0"
+        },
+        "Mellanox32": {
+            "local_port": "Ethernet16",
+            "port": "Ethernet32"
+        },
+        "Mellanox36": {
+            "local_port": "Ethernet20",
+            "port": "Ethernet36"
         }
     }, 
     "PORTCHANNEL_INTERFACE": {
         "PortChannel2|172.16.1.20/24": {},
-	"PortChannel3|172.16.2.20/24": {}
+        "PortChannel3|172.16.2.20/24": {}
     },
     "PORTCHANNEL": {
         "PortChannel2": {

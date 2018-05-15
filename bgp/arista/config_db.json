@@ -456,7 +456,25 @@
             "local_addr": "10.0.3.20",
             "asn": "65000"
         }
-    }, 
+    },
+    "DEVICE_NEIGHBOR": {
+        "ServerBs0d1": {
+            "local_port": "Ethernet40",
+            "port": "enp5s0d1"
+        },
+        "ServerBs0": {
+            "local_port": "Ethernet44",
+            "port": "enp5s0"
+        },
+        "Mellanox32": {
+            "local_port": "Ethernet16",
+            "port": "Ethernet32"
+        },
+        "Mellanox36": {
+            "local_port": "Ethernet20",
+            "port": "Ethernet36"
+        }
+    },
     "INTERFACE": {
         "Ethernet16|10.0.2.20/24": {}, 
         "Ethernet20|10.0.3.20/24": {}, 
