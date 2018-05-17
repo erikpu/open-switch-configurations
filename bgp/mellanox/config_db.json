@@ -120,7 +120,7 @@
     },
     "LOOPBACK_INTERFACE": {
         "Loopback0|10.1.0.10/32": {}
-    }, 
+    },  
     "NTP_SERVER": {
         "0.debian.pool.ntp.org": {}, 
         "1.debian.pool.ntp.org": {}, 

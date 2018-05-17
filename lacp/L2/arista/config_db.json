@@ -463,24 +463,37 @@
         }
     }, 
     "PORTCHANNEL_INTERFACE": {
-        "PortChannel2|172.16.1.20/24": {},
-        "PortChannel3|172.16.2.20/24": {}
+        "PortChannel1|": {}
     },
     "PORTCHANNEL": {
-        "PortChannel2": {
+        "PortChannel1": {
             "members": [
                 "Ethernet16",
                 "Ethernet20"
             ]
-        },
-        "PortChannel3": {
-            "members": [
-                "Ethernet40",
-                "Ethernet44"
-            ]
         }
-
-    }, 
+    },
+    "VLAN": {
+        "Vlan100": {
+            "members": [
+                "Ethernet44",
+                "Ethernet16",
+                "Ethernet20"
+            ],
+            "vlanid": "100"
+        } 
+    },
+    "VLAN_MEMBER": {
+        "Vlan100|Ethernet44": {
+            "tagging_mode": "untagged"
+        },
+        "Vlan100|Ethernet16": {
+            "tagging_mode": "untagged"
+        },
+        "Vlan100|Ethernet20": {
+            "tagging_mode": "untagged"
+        }
+    },
     "INTERFACE": { 
         "eth0|192.168.250.4/24": {}
     },

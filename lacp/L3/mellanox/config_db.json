@@ -99,17 +99,10 @@
         }
     },
     "PORTCHANNEL_INTERFACE": {
-        "PortChannel1|172.16.0.10/24": {},
-        "PortChannel2|172.16.1.10/24": {}
+        "PortChannel1|172.16.0.10/24": {}
     },
     "PORTCHANNEL": {
         "PortChannel1": {
-            "members": [
-                "Ethernet56",
-                "Ethernet60"
-            ]
-        },
-        "PortChannel2": {
             "members": [
                 "Ethernet32",
                 "Ethernet36"
