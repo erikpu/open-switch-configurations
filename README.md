@@ -1,7 +1,7 @@
 Name:           Erik Puijk  
 Student number: 11017651  
 Date:           04-05-2018  
-Project:        BSc Thesis 'Evaluation of open switches ecosystems'  
+Project:        BSc Thesis 'Open-source network operating systems: feature evaluation of SONiC'  
 Institute:      University of Amsterdam (UvA)  
 
 Description:
